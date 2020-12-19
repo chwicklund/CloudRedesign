@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22aebdf4-2cb8-4818-828f-9572bac4b079" name="Default Changelist" comment="Feature: implemented Google Analytics" />
+    <list default="true" id="22aebdf4-2cb8-4818-828f-9572bac4b079" name="Default Changelist" comment="Task: implemented a favicon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608342926944</updated>
-      <workItem from="1608342927966" duration="14577000" />
+      <workItem from="1608342927966" duration="14901000" />
     </task>
     <task id="LOCAL-00001" summary="Task: updated stylesheet">
       <created>1608357991564</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608359850270</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task: implemented a favicon">
+      <created>1608360388983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608360388983</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +119,8 @@
     <MESSAGE value="Task: added stylesheet for content pages" />
     <MESSAGE value="Task: added new image for home page" />
     <MESSAGE value="Feature: implemented Google Analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: implemented Google Analytics" />
+    <MESSAGE value="Task: implemented a favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: implemented a favicon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="-738" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608346369919">
@@ -131,10 +139,10 @@
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="715" y="-835" key="Github.UntrackedFilesDialog/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608351109733" />
-    <state x="552" y="-807" key="Vcs.Push.Dialog.v2" timestamp="1608359854030">
+    <state x="552" y="-807" key="Vcs.Push.Dialog.v2" timestamp="1608360393815">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="552" y="-807" key="Vcs.Push.Dialog.v2/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608359854030" />
+    <state x="552" y="-807" key="Vcs.Push.Dialog.v2/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608360393815" />
     <state x="560" y="-930" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608354638481">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
