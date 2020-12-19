@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #C02F1D; font-family: 'Lilita One', cursive;">
+<body class="text-center">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #C02F1D; font-family: 'Lilita One', cursive; box-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);">
     <div class="container-fluid">
         <h2 style="color: white; ">CLOUD TECHNOLOGIES ‎ ‎ ‎ ‎</h2>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,80 +23,41 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="about.html">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        INFORMATION
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        HOW IT ALL WORKS
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="page1.html">Containerization</a>
+                        <a class="dropdown-item" href="page2.html">Data Centers</a>
+                        <a class="dropdown-item" href="page3.html">Kubernetes & Docker</a>
+                        <a class="dropdown-item" href="page4.html">Using Apache</a>
+                    </div>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <p>
-
-    </p>
-    <div class="container">
-        <h2 class="py-2">
-            What is Docker and How does it work?
-        </h2>
-        <hr class="my-4">
-        <div class="col-13">
-        <p>
-            This project's goal is to identify what containerization is, how it works. We will not only learn the concepts of containerization such as virtual packages, but we will also learn what are the well known software that help us manipulate and utilize this concept. After that we will learn in detail on how to create our own repository on one of the software available and how to use it.
-        </p>
-        <p>
-
-        </p>
-        <h2><small class="text-muted"></small></h2>
-        <p>
-
-        </p>
-            <p>
-
+<img class="img-fluid" src="images/kloud.png">
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <h1 class="py-2" style="font-family: 'Lilita One', sans-serif;">
+            WAIT, WHAT EXACTLY IS DOCKER?
+        </h1>
+        <div class="col-13 py-1">
+        <h3 style="font-family: 'Questrial', sans-serif;">
+            Docker, and other technologies mentioned on this site, are containerization technologies vital to cloud computing. Let me explain:
+        </h3>
+            <p class="lead py-4">
+                <a href="page1.html" class="btn btn-lg btn-dark" style="font-family: 'Lilita One', sans-serif; background-color: #C02F1D;">LET'S BEGIN</a>
             </p>
-            <div class="card mb-3" style="width: 50rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Below is an introduction to each of the topics</h5>
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="nav flex-column nav-pills" id="pills-tab" role="tablist" aria-orientation="vertical">
-                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Container</a>
-                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Data Center</a>
-                                <a class="nav-link" id="pills-messages-tab" data-toggle="pill" href="#pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Kubernetes</a>
-                                <a class="nav-link" id="pills-settings-tab" data-toggle="pill" href="#pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Docker Repository</a>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><p>A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.  Containers and virtual machines (VMs) are two of the top approaches in use today. These are the software technologies used to create and store self- contained virtual packages. On this page we will discuss what is virtualization and containerization and how they compare in terms of advantages and uses. </p></div>
-                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">A data center is a physical facility that organizations use to house their critical applications and data. On this page we will explain what is a data center and how they are related to the cloud system. On this page we will answer questions such as "Why are data centers important?", "How do data centers operate?", "What are data centers made of?" and "What is the infrastructure and standards like for data centers?".</div>
-                                <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available. Since there are different types of containerization tools therefore it is crucial to know which works best for which. We will learn how to distinguish Kubernetes to Docker and what are the advantages and disadvantages of these containerization technologies</div>
-                                <div class="tab-pane fade" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. This part we will show a brief tutorial on how to create a docker repository and store an image and one's websites using apache. Using the knowledge and practices from the past assignment in class we can show step by step how to create a repository and store images using docker as our containerization tool.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="card-text"></p>
-                    <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-            </div>
-            <img src="images/gettyimages-1176050900-2048x2048.jpg" class="card-img-top" style="width: 50rem;" alt="...">
-            <p>
-
-            </p>
-            <hr class="my-8">
         <footer>
-            <small>&copy; Copyright 2020, Jae Lee and Charles Wicklund</small>
+            <small style="font-family: 'Questrial', sans-serif;">&copy; Charles Wicklund</small>
             <p>
 
             </p>
@@ -105,17 +66,13 @@
     </div>
     </div>
 
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-<!-- Option 2: jQuery, Popper.js, and Bootstrap JS
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
--->
+
 </body>
 
 </html>

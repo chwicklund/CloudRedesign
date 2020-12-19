@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22aebdf4-2cb8-4818-828f-9572bac4b079" name="Default Changelist" comment="" />
+    <list default="true" id="22aebdf4-2cb8-4818-828f-9572bac4b079" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/page3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page4.html" beforeDir="false" afterPath="$PROJECT_DIR$/page4.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lr6aYhKFCAG3eLO0b917LV330v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608342926944</updated>
-      <workItem from="1608342927966" duration="6120000" />
+      <workItem from="1608342927966" duration="12778000" />
     </task>
     <servers />
   </component>
@@ -65,5 +80,17 @@
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="740" y="-785" key="FileChooserDialogImpl/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608342982840" />
+    <state x="825" y="-642" key="Github.ShareDialog" timestamp="1608351104807">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="825" y="-642" key="Github.ShareDialog/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608351104807" />
+    <state x="715" y="-835" key="Github.UntrackedFilesDialog" timestamp="1608351109733">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="715" y="-835" key="Github.UntrackedFilesDialog/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608351109733" />
+    <state x="560" y="-930" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608354638481">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="560" y="-930" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1608354638481" />
   </component>
 </project>
