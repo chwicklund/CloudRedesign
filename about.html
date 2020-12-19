@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GTHYLVRSEB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GTHYLVRSEB');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,34 +19,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap" rel="stylesheet">
     <title></title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Cloud Technology</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #C02F1D; font-family: 'Lilita One', cursive; box-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);">
+    <div class="container-fluid">
+        <h2 style="color: white; ">CLOUD TECHNOLOGIES ‎ ‎ ‎ ‎</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="page1.html">Container</a>
+                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="page2.html">Data Center</a>
+                    <a class="nav-link active" href="about.html">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page3.html">Kubernetes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page4.html">Docker Repository</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        HOW IT ALL WORKS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="page1.html">Containerization</a>
+                        <a class="dropdown-item" href="page2.html">Data Centers</a>
+                        <a class="dropdown-item" href="page3.html">Kubernetes & Docker</a>
+                        <a class="dropdown-item" href="page4.html">Using Apache</a>
+                    </div>
                 </li>
             </ul>
         </div>
-    </nav>
-    <p>
-
-    </p>
+    </div>
+</nav>
     <div class="container">
         <h2>
             About
@@ -44,8 +60,8 @@
         <hr class="my-4">
         <div class="col-13">
             <p>
-                This is a simple site created by Jae Lee and Charles Wicklund explaining
-                topics like Docker, Kubernetes, and containerization.
+                This is a simple site created by Charles Wicklund explaining
+                topics like Docker, Kubernetes, and containerization. The site was redesigned to optimize the user experience.
             </p>
             <p>
 
